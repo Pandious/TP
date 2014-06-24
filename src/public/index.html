@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap-theme.min.css">
+		<style type="text/css">
+			.container{
+				border-radius: 5px;
+				border: 0px;
+				width:320px;
+				padding:0 50px 25px 50px;
+				margin: 0 auto;
+			}
+			.form-group{
+				width:auto;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h1 class="page-header" align="center">Connection</h1>
+				<form class="form-inline" method="POST" action="connexion.php">
+					<div class="input-group double-input">
+						<input type="text" placeholder="Login" name="login" class="form-control" />
+						<input type="password" placeholder="Password" name="password" class="form-control" />
+						<span class="input-group-btn btn-group-lg">
+							<button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#myModal">Go !</button>
+						</span>
+					</div><!-- /input-group -->				
+				</form>
+				<a href="inscription.html"><button class="btn btn-info">Inscription</button></a>
+			</div>
+		</div>
+	</body>
+</html>

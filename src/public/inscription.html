@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap-theme.min.css">
+		<style type="text/css">
+			.container{
+				border-radius: 5px;
+				border: 0px;
+				width:320px;
+				padding:0 50px 25px 50px;
+				margin: 0 auto;
+			}
+			.form-group{
+				width:auto;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h1 class="page-header" align="center">Inscription</h1>
+				<form class="form-inline" method="POST" action="inscription.php">
+				<div class="input-group double-input">
+					<input type="text" placeholder="First Name" name="first_name" class="form-control" />
+					<input type="text" placeholder="Last Name" name="last_name" class="form-control" />
+					<input type="text" placeholder="Login" name="login" class="form-control" />
+					<input type="password" placeholder="Password" name="password" class="form-control" />
+					<span class="input-group-btn btn-group-sm">
+						<button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#myModal">Come<br /> IN !</button>
+					</span>
+				</div>
+				</form>
+			</div>
+		</div>
+</body>
+</html>

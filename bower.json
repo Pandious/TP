@@ -1,0 +1,21 @@
+{
+  "name": "TP",
+  "version": "0.0.0",
+  "authors": [
+    "Pandious <lebillant.loic@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/public/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "normalize-css": "~3.0.1",
+    "modernizr": "~2.8.2"
+  }
+}
